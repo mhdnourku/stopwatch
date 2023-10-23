@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right,#9cecfb,#65c7f7,#0052d4)
+}
+.container{
+    width: 1200px;
+    color: white;
+    margin: 100px auto;
+    text-align: center;
+}
+.container h1{
+    font-size: 4em;
+}
+.container p{
+    font-size: 5em;
+}
+.container p span{
+    margin-left: 20px;
+}
+.container .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.container button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 10px;   
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: #65c7f7;
+    color: #fff;
+    transition:0.4s;
+    border: none;
+ }
